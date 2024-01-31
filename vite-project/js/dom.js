@@ -1,7 +1,9 @@
 const DOMselectors = {
-    task: document.getElementById("input"),
+    task: document.getElementById("taskinput"),
     date: document.getElementById("input2"),
     submit: document.getElementById("submit"),
+    create: document.getElementById("createTask"),
+    container: document.getElementById("container"),
 }
 
 export {DOMselectors};
