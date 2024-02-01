@@ -18,6 +18,9 @@ function createCard(){
     });
 }
 
+function clear(){
+    tasks.length = 0;
+}
 
 DOMselectors.submit.addEventListener('click', function(){
     addTask()
@@ -25,6 +28,7 @@ DOMselectors.submit.addEventListener('click', function(){
 
 DOMselectors.create.addEventListener('click', function(){
     createCard()
+    clear()
 })
 
 console.log(tasks)
