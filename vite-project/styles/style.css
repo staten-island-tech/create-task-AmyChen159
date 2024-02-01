@@ -20,5 +20,7 @@ body {
     margin: 2%;
     justify-content: space-between;
     background-color: 	#EEF5FF;
-    border: 0.5em solid #9EB8D9;
+    border: 0.25em solid #9EB8D9;
+    width: 100px;
+    height: 100px;
 }

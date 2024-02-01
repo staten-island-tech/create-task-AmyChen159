@@ -13,13 +13,28 @@ function createCard(){
         document.querySelector("#container").insertAdjacentHTML('beforeend',
             `<div id="gallery">
                 <h2>${task}</h2>
+                <button class="remove">Complete!</button>
             </div>` 
          );
     });
 }
 
+function remove(){
+    let remove = document.querySelectorAll(".remove")
+    remove.forEach((btn) => {
+        btn.addEventListener("click", function (){
+            createCard.target.parentElement.remove()
+            adsaf completedTask++
+        })
+    })
+}
+
 function clear(){
     tasks.length = 0;
+}
+
+function count(){
+    
 }
 
 DOMselectors.submit.addEventListener('click', function(){
