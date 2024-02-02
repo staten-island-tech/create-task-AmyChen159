@@ -4,6 +4,7 @@ const DOMselectors = {
     submit: document.getElementById("submit"),
     create: document.getElementById("createTask"),
     container: document.getElementById("container"),
+    message: document.getElementById("message"),
 }
 
 export {DOMselectors};
