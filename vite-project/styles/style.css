@@ -8,19 +8,61 @@ body {
     background-color: #A25772;
 }
 
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
 #container {
     display: flex;
     flex-wrap: wrap; 
     justify-content: space-around;
 }
 
-#gallery{
+#gallery {
     text-align: center;
     padding: 3%;
     margin: 2%;
     justify-content: space-between;
     background-color: 	#EEF5FF;
     border: 0.25em solid #9EB8D9;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    width: 100%;
+    max-height: 3em;
+    white-space: normal;
+    overflow: hidden;
+}
+
+.remove{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.button {
+    padding: 0.25rem 0.5rem;
+    display: inline-block;
+    margin: 0.5rem auto;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    border: none;
+}
+
+.interface {
+    text-align: center;
+}
+
+.print {
+    text-align: center;
+    font-size: 25px;
+    margin: 5rem auto;
 }

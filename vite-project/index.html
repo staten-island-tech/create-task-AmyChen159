@@ -9,16 +9,18 @@
   <body>
     <h1>Task Manager</h1>
     <h3>Please enter your tasks one by one using 'Submit'</h3>
-    <h3>Hit 'Create' to generate Task cards!</h3>
-    <input type="text" id="taskinput" placeholder="Enter Task">
-    <!-- <input type="text" id="input2" placeholder="Enter Due Date"> -->
+    <h3>Hit 'Create' to generate Task cards</h3>
     
-    <input type="submit" id="submit" value="Submit">
-    <input type="submit" id="createTask" value="Create">
+    <div class="interface">
+      <p><input type="text" class="input" id="taskinput" placeholder="Enter Task"></p>
+    
+      <input type="submit" class="button" id="submit" value="Submit">
+      <input type="submit" class="button" id="createTask" value="Create">
+    </div>
    
-    <div id="message"></div>
+    <div class="print" id="message"></div>
     <div id="container"></div>
-    <div id="counter"></div>
+    <div class="print" id="counter"></div>
 
     <script type="module" src="/js/main.js"></script>
   </body>

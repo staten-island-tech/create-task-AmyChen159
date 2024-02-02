@@ -29,7 +29,7 @@ function createCard(){
         const task = tasks[i];
         document.querySelector("#container").insertAdjacentHTML('beforeend',
         `<div id="gallery">
-            <h2>${task}</h2>
+            <h2 class="text">${task}</h2>
             <button class="remove">Complete!</button>
         </div>`)
     }
